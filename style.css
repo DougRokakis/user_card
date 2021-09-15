@@ -1,0 +1,61 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    width:500px;
+}
+
+.header{
+    background-color: dodgerblue;
+    display: flex;
+    position: relative;
+    width: 100%;
+    min-height: 50px;
+}
+
+.header img{
+    width:50px;
+    position: absolute;
+    top: 25px;
+    left:30px;
+}
+
+.info{
+    padding: 20px;
+    background-color:floralwhite;
+}
+
+.info-top{
+    padding-top: 20px;
+}
+
+.info-bottom{
+    width: 800px;
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.map{
+    display:flex;
+    gap: 10px;
+}
+
+.map-marker-icon{
+    height: 20px;
+    width:20px;
+}
+
+.gear-icon{
+    height: 20px;
+    width:20px;
+}
